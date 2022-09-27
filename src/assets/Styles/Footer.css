@@ -1,0 +1,11 @@
+/*! footer*/
+footer {
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 30px;
+  float: right;
+  margin: 20px 10px 30px;
+}

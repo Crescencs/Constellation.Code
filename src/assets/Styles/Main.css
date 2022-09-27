@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #000000;
+  color: #fff;
+}
+/**scroll personalizado*/
+/*?primero se accede a la barra y se le da el tamaño entre otras propiedades*/
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+/*?despues de edita la barra que baja y sube con propiedades X*/
+body::-webkit-scrollbar-thumb {
+  background: #000117;
+  border-radius: 5px;
+}
+/**este el espacio de cada section*/
+/*!sections*/
+
+#section-1 {
+  height: 700px;
+}
+#section-1 img {
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.contenedor {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: aliceblue;
+  display: flex;
+  top: -150px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 750px;
+}
+.container_section_2-informacion {
+  margin: auto;
+  width: 700px;
+}
+.container_section_2-img-more-information {
+  display: inline-block;
+  width: 600px;
+  border-radius: 25px;
+  background: #404040;
+  overflow: hidden;
+  margin: auto;
+}
+.container_section_2-img-more-information img {
+  width: 600px;
+}
+.centrar-Y {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.portafolio-container img {
+  width: 100%;
+}
+
+.portafolio-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
