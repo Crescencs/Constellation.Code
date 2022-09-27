@@ -44,7 +44,7 @@
   position: absolute;
   bottom: 0;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.7);
+  background: #000000b3;
   color: #e8e8e8;
   transform: translateY(100%);
   transition: all 0.5s ease-out;

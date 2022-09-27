@@ -1,8 +1,6 @@
-import ConstelacionAndromeda from "../assets/Images/sistema-solar.png"
-import ConstelacionCarina from "../assets/Images/sistema-solar.png"
-import ConstelacionDelphinus from "../assets/Images/sistema-solar.png"
-import ConstelacionTelescopium from "../assets/Images/sistema-solar.png"
-
+import ConstelacionAndromeda from "../assets/Images/andromeda.jpg"
+import ConstelacionCarina from "../assets/Images/Carina.jpg"
+import ConstelacionDelphinus from "../assets/Images/delphinus.jpg"
 
 
 import Card from "./Card"
